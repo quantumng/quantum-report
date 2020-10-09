@@ -1,0 +1,28 @@
+{
+  "name": "quantum-report",
+  "version": "1.0.2",
+  "description": "",
+  "main": "dist/quantum-report.js",
+  "esm": "dist/quantum-report.esm.js",
+  "cjs": "dist/quantum-report.cjs.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "keywords": [],
+  "author": "quantum_ng",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^2.29.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "ts-node": "^9.0.0",
+    "tslib": "^2.0.2",
+    "typescript": "^4.0.3"
+  }
+}

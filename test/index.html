@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #entry {
+            width: 100px;
+            height: 100px;
+            background-color: hotpink;
+        }
+    </style>
+</head>
+<body>
+    <div id="entry"></div>
+    <script src="../dist/quantum-report.js"></script>
+    <script>
+        window.addEventListener('error', function(e) {
+            console.log('error arg', e);
+        }, true);
+    </script>
+</body>
+</html>
